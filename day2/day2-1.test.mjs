@@ -1,7 +1,7 @@
 import {describe, it, expect} from 'vitest';
-import {isAsc, isDesc, isSafe, getAnswer} from './day2.mjs';
+import {isAsc, isDesc, isSafe, getAnswer} from './day2-1.mjs';
 
-describe('day 2', () => {
+describe('day 2 - 1', () => {
     it('should be asc next number', () => {
         expect(isAsc([1,2])).toBe(true);
     });
